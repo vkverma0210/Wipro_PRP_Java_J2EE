@@ -22,8 +22,10 @@ class Division {
 }
 
 public class DivisionException {
+    private static Scanner scn;
+
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+        scn = new Scanner(System.in);
 
         System.out.print("Enter the value of x: ");
         int x = scn.nextInt();
@@ -45,5 +47,7 @@ public class DivisionException {
         } finally {
             System.out.println("Thank You...!");
         }
+
+        scn.close();
     }
 }
