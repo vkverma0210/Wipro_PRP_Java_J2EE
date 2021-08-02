@@ -45,8 +45,10 @@ class Rectangle {
 }
 
 public class RectanglePerimeterArea {
+    private static Scanner scn;
+
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+        scn = new Scanner(System.in);
 
         System.out.print("Enter the length: ");
         float length = scn.nextFloat();
@@ -57,5 +59,7 @@ public class RectanglePerimeterArea {
         Rectangle r1 = new Rectangle(length, height);
         r1.calPerimeter(length, height);
         r1.calArea(length, height);
+
+        scn.close();
     }
 }
