@@ -1,6 +1,18 @@
-public class StepNumber {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
+public class StepNumber {
+    private static Scanner scn;
+
+    public static void main(String[] args) {
+        scn = new Scanner(System.in);
+
+        int input1 = scn.nextInt();
+
+        StepNumber obj = new StepNumber();
+
+        System.out.println(obj.isStepNumber(input1));
+
+        scn.close();
     }
 
     public String isStepNumber(int input1) {
