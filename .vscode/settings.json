@@ -2,8 +2,9 @@
     "java.project.sourcePaths": [
         "Online Practice Questions",
         "3.Abstraction Package And Exception Handling/4.Exception Handling/Q1",
+        "3.Abstraction Package And Exception Handling",
         "1.Java Fundamentals/2. Flow Control Statements/Q3",
         "1.Java Fundamentals/2. Flow Control Statements/Q2",
-        "3.Abstraction Package And Exception Handling"
+        "Java8 Questions"
     ]
 }
