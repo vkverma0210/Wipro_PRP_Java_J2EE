@@ -16,16 +16,16 @@ public class CountingOnFingure {
     }
 
     public int countingOnFingure(int input1) {
-        int rem = input1 % 8;
+        int remen = input1 % 8;
 
-        if (rem == 0) {
+        if (remen == 0) {
             return 2;
         }
 
-        if (rem < 5) {
-            return rem;
+        if (remen < 5) {
+            return remen;
         } else {
-            return (10 - rem);
+            return (10 - remen);
         }
     }
 }
